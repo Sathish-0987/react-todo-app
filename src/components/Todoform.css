@@ -1,0 +1,19 @@
+.todo-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 10px;
+}
+
+.todo-form input{
+    padding: 10px;
+    width: 300px;
+}
+.todo-form button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.todo-form button:hover{
+   background-color: yellow;
+}
