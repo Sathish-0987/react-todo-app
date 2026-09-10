@@ -20,7 +20,7 @@ export default function Todoform() {
     <div className="todo-list">
 
         {todos.map((todo, index) => (
-          <p key={index}>{todo}</p>
+          <p className='Task' key={index}>{todo}</p>
         ))}
 
       </div>
