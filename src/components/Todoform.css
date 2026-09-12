@@ -14,7 +14,7 @@
     background-color: #D9D9D9;
     border-radius: 10px;
     border: none;
-    font-size: larger;
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .todo-form button{
@@ -42,7 +42,7 @@
 }
 .Task{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
+    font-size: 22px;
     padding: 10px 30px;
     margin: 10px 0;
     border-radius: 10px;
