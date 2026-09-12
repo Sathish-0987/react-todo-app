@@ -8,7 +8,6 @@ export default function Todoform() {
     if (task.trim() === "") return;
 
     setTodos([...todos, task]);
-    // console.log(task);
      setTask('');
   };
   return (
