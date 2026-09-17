@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./Todoform.css"
+import TodoList from './TodoList';
 
 export default function Todoform() {
   const [task,setTask]=useState("");
@@ -16,13 +17,7 @@ export default function Todoform() {
         <input type='text' placeholder='Enter a Task' value={task} onChange={(e)=>setTask(e.target.value)}/>
         <button type='submit'>Add</button>
     </form>
-    <div className="todo-list">
-
-        {todos.map((todo, index) => (
-          <p className='Task' key={index}>{todo}</p>
-        ))}
-        
-      </div>
+    <TodoList todos={todos} />
       
       </>
   )

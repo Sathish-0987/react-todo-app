@@ -1,8 +1,15 @@
-import React from 'react'
-import "./TodoList.css"
+import React from "react";
 
-export default function TodoList() {
-  return (
-    <div>TodoList</div>
-  )
+function TodoList({ todos }) {
+    return (
+        <div className="todo-list">
+            {todos.map((todo, index) => (
+                <p className="Task" key={index}>
+                    {todo}
+                </p>
+            ))}
+        </div>
+    );
 }
+
+export default TodoList;
